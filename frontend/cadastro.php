@@ -17,23 +17,23 @@
             <form action="/action_page.php">
                 <div class="form-floating mt-3 mb-3">
                     <input type="text" class="form-control" id="nome" placeholder="Nome Completo" name="nome">
-                    <label for="pwd">Nome Completo</label>
+                    <label for="nome">Nome Completo</label>
                 </div>
               <div class="form-floating mb-1 mt-1">
                 <input type="text" class="form-control" id="email" placeholder="Email" name="email">
                 <label for="email">Email</label>
               </div>
               <div class="form-floating mt-3 mb-3">
-                <input type="number" class="form-control" id="telefone" placeholder="Telefone" name="telefone">
-                <label for="pwd">Telefone</label>
+                <input type="number" class="form-control" id="usuario" placeholder="usuario" name="usuario">
+                <label for="usuario">Usuário</label>
               </div>
               <div class="form-floating mt-3 mb-3">
                 <input type="text" class="form-control" id="senha" placeholder="Senha" name="senha">
-                <label for="pwd">Senha</label>
+                <label for="senha">Senha</label>
               </div>
               <div class="form-floating mt-3 mb-3">
                 <input type="text" class="form-control" id="senhaC" placeholder="Confirme a senha" name="senhaC">
-                <label for="pwd">Confirme a Senha</label>
+                <label for="senhaC">Confirme a Senha</label>
               </div>
               <button type="submit" class="btn btn-dark" style=" margin:auto; width:100%; ">Cadastre-se</button>
             </form>

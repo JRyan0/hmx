@@ -16,16 +16,16 @@
         <form>
             <div class="container mt-3">
                 <h2 class="d-flex justify-content-center"style="padding-bottom: 40px; ">Login</h2>
-                <form action="/action_page.php">
+                <form action="backend/validacao.php" method="post">
                 <div class="form-floating mb-1 mt-1">
-                    <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="txUsuario" placeholder="Enter email" name="email">
+                    <label for="txUsuarip">Usuário</label>
                 </div>
                 <div class="form-floating mt-3 mb-3">
-                    <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-                    <label for="pwd">Password</label>
+                    <input type="password" class="form-control" id="txSenha" placeholder="Enter password" name="senha">
+                    <label for="txSenha">Password</label>
                 </div>
-                <button type="submit" class="btn btn-dark" style=" margin:auto; width:100%; ">Iniciar Sessão</button>
+                <button type="submit" value="entrar" class="btn btn-dark" style=" margin:auto; width:100%; ">Iniciar Sessão</button>
                 </form>
             </div>
         </form>
