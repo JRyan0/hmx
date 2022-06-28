@@ -19,7 +19,7 @@
 
 <body>
         <?php
-            include_once 'header.php';
+            include_once 'header.html';
         ?>
  
    <!-- Slider main container -->
@@ -46,27 +46,11 @@
 
 
 
-<!-- Carrinho-->
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <button type="button" class="pos btn btn-light">Finalizar Compra</button>
-</div>
+<!-- Carrinho--><?php require_once('carrinho.close.html')?>
 
 <!-- Use any element to open the sidenav -->
 
-        <script>
-        function openNav() {
-        document.getElementById("mySidenav").style.width = "350px";
-        document.getElementById("main").style.marginLeft = "250px";
-        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        }
-
-        function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft= "0";
-        document.body.style.backgroundColor = "white";
-        }
-        </script>
+    
       <script type="module">
         import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
         import "react-slideshow-image/dist/styles.css"
@@ -106,7 +90,7 @@
       </script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
